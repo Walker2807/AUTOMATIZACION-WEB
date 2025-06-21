@@ -9,8 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "com.nttdata.testing",
-        tags = "@NavegarJackets")
+        tags = "@BuscarProductoInexistente"
+)
 
-public class RunnerTest {
-
-}
+public class RunnerTest {}
